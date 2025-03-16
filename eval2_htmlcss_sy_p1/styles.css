@@ -1,0 +1,87 @@
+/* Styles généraux */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color : #ffffff;
+    width : 960px;
+    text-align : center;
+}
+
+/* En-tête Acceuil */
+header {
+    font-size: 34px;
+    font-family: "Lucida Unicode Calligraphy", cursive;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Barre de navigation Acceuil*/
+nav {
+    background-color: #a3322a;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 10px 15px;
+    margin: 20px;
+}
+
+nav a:hover {
+    background-color: #721717;
+    border-radius: 5px;
+
+}
+
+/* Bannière Acceuil*/
+.banner {
+    width: 100%;
+    height: 200px;
+    background-image: url('/03-img/bandeau.jpg');
+    /* Mets le bon chemin */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Contenu principal */
+.content {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin: 50px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    color: #a33;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Liens */
+a {
+    color: #a33;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pied de page */
+.footer {
+    background: #666;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer strong {
+    color: #ffcc99;
+}

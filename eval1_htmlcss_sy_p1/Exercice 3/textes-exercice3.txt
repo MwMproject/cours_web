@@ -1,0 +1,8 @@
+Dans cet article, nous faisons la proposition que la linguistique peut-être une clef de description des langages informatiques tels que HTML et CSS.
+
+Nous illustrerons ceci en nous servant d'un concept linguistique élaboré par André Martinet : la double articulation.
+Nous nous efforcerons dans un 1er temps de le définir dans le domaine linguistique avant de le décliner dans le cadre des deux principaux langages web.
+
+La double articulation est un concept élaboré par André Martinet pour décrire le fonctionnement des langues naturelles. Tout langage est doublement articulé en ce qu'il se compose de deux séries d'éléments qui participent à la production du sens.
+La première articulation se développe au sein des mots ou syntagmes. Ces syntagmes sont des unités linguistiques constituées de sons ou de la retranscription écrite de ces sons.
+La seconde articulation est donc le fait que des sons différents agencés dans le même ordre produisent un mot différent à condition que celui-ci existe.
