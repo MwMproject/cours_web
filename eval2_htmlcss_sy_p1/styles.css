@@ -1,87 +1,97 @@
-/* Styles généraux */
+/*Styles généraux*/
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-color : #ffffff;
-    width : 960px;
-    text-align : center;
+    background-color: #ffffff;
+    width: 960px;
+    text-align: center;
 }
 
-/* En-tête Acceuil */
+/*En-tête Acceuil*/
 header {
     font-size: 34px;
     font-family: "Lucida Unicode Calligraphy", cursive;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    color: #aa3322;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Barre de navigation Acceuil*/
+/*Barre de navigation Acceuil*/
 nav {
-    background-color: #a3322a;
+    background-color: #aa3322;
+    color: #cccccc;
     padding: 10px 0;
+    text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #cccccc;
+    font-size: 12px;
     text-decoration: none;
-    font-weight: bold; 
-    padding: 10px 15px;
-    margin: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-right: 1px dashed #cccccc;
 }
 
 nav a:hover {
-    background-color: #721717;
-    border-radius: 5px;
-
+    background-color: #cccccc;
+    color: #ffffff
 }
 
-/* Bannière Acceuil*/
+/*Bannière Acceuil*/
 .banner {
     width: 100%;
     height: 200px;
-    background-image: url('/03-img/bandeau.jpg');
-    /* Mets le bon chemin */
+    background-image: url("03-img/bandeau.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* Contenu principal */
+/*Contenu principal*/
 .content {
-    width: 80%;
-    margin: auto;
+    margin-left: 50px;
     background: white;
-    padding: 20px;
-    margin: 50px;
+    text-align: left;
 }
 
 h2 {
-    font-style: italic;
+    color: #000000
+    font-size : 20px;
+    text-align : center;
 }
 
 h3 {
-    color: #a33;
+    color: #000000
+    font-size : 20px;
 }
 
 p {
-    line-height: 1.6;
+color: #000000 
+font-size: 14px;
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
-/* Liens */
+/*Liens*/
 a {
-    color: #a33;
-    font-weight: bold;
-}
-
-a:hover {
+    font-size: 14px;
+    color: #aa3322;
     text-decoration: underline;
 }
 
-/* Pied de page */
+a:hover {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+/*Pied de page*/
 .footer {
-    background: #666;
-    color: white;
+    background: #aaaaaa;
+    color: #721717;
     padding: 20px;
     margin-top: 20px;
 }
 
 .footer strong {
-    color: #ffcc99;
+    color: #aaaaaa;
 }
+
+/* à voir, lien ancrés et la suite*/
