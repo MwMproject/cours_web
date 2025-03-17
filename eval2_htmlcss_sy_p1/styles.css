@@ -84,14 +84,16 @@ a:hover {
 
 /*Pied de page*/
 .footer {
-    background: #aaaaaa;
+    font-size: 14px;
+    background: #cccccc;
     color: #721717;
     padding: 20px;
     margin-top: 20px;
 }
 
 .footer strong {
-    color: #aaaaaa;
+    color: #721717;
+    text-align: right;
 }
 
 /* à voir, lien ancrés et la suite*/
