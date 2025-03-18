@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Verdana, sans-serif;
     background-color: #ffffff;
-    width: 960px;
+    max-width: 960px;
     text-align: center;
 }
 
@@ -53,18 +53,18 @@ nav a:hover {
 }
 
 h2 {
-    color: #000000
+    color: #000000;
     font-size ; 20px;
     text-align : center;
 }
 
 h3 {
-    color: #000000
+    color: #000000;
     font-size : 20px;
 }
 
 p {
-color: #000000 
+color: #000000;
 font-size: 14px;
 margin-bottom: 0px;
 margin-top: 0px;
