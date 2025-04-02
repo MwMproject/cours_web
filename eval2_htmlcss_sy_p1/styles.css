@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Verdana, sans-serif;
     background-color: #ffffff;
-    width: 960px;
+    max-width: 960px;
     text-align: center;
 }
 
@@ -62,6 +62,7 @@ ul {
 h2 {
     color: #000000;
     font-size : 20px;
+    font-size ; 20px;
     text-align : center;
 }
 
