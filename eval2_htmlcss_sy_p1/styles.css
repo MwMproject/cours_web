@@ -9,9 +9,11 @@ body {
 /*En-tête Acceuil*/
 header {
     font-size: 34px;
+    font-weight: bold;
     font-family: "Lucida Unicode Calligraphy", cursive;
     color: #aa3322;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
 }
 
 /*Barre de navigation Acceuil*/
@@ -51,25 +53,58 @@ nav a:hover {
     background: white;
     text-align: left;
 }
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
 
 h2 {
-    color: #000000
-    font-size ; 20px;
+    color: #000000;
+    font-size : 20px;
     text-align : center;
 }
 
 h3 {
-    color: #000000
+    color: #000000;
     font-size : 20px;
 }
 
 p {
-color: #000000 
+color: #000000;
 font-size: 14px;
 margin-bottom: 0px;
 margin-top: 0px;
 }
 
+/*boites des livres coups de coeur*/
+.book-card {
+    background-color: #ededed;
+    border: 2px solid #aa3322;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: left;
+}
+
+.book-card h4 {
+    color: #aa3322;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-card p strong {
+    color: 000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-grid {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}
 /*Liens*/
 a {
     font-size: 14px;
