@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-/*En-tête Acceuil*/
+/*En-tête*/
 header {
     font-size: 34px;
     font-weight: bold;
@@ -16,7 +16,7 @@ header {
     margin-bottom: 30px;
 }
 
-/*Barre de navigation Acceuil*/
+/*Barre de navigation*/
 nav {
     background-color: #aa3322;
     color: #cccccc;
@@ -26,7 +26,7 @@ nav {
 
 nav a {
     color: #cccccc;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     padding: 10px 10px;
     font-weight: bold;
@@ -38,7 +38,7 @@ nav a:hover {
     color: #ffffff
 }
 
-/*Bannière Acceuil*/
+/*Bannière*/
 .banner {
     width: 100%;
     height: 200px;
@@ -53,6 +53,7 @@ nav a:hover {
     background: white;
     text-align: left;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -61,8 +62,7 @@ ul {
 
 h2 {
     color: #000000;
-    font-size : 20px;
-    font-size ; 20px;
+    font-size : 26px;
     text-align : center;
 }
 
@@ -72,10 +72,10 @@ h3 {
 }
 
 p {
-color: #000000;
-font-size: 14px;
-margin-bottom: 0px;
-margin-top: 0px;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 /*boites des livres coups de coeur*/
@@ -86,12 +86,16 @@ margin-top: 0px;
     padding: 15px;
     width: 250px;
     text-align: left;
+    font-size: 16px;
 }
 
-.book-card h4 {
+.book-card h4 em{
     color: #aa3322;
     font-size: 16px;
     font-weight: bold;
+}
+.normal-text {
+    font-weight: normal;
 }
 
 .book-card p strong {
@@ -103,9 +107,10 @@ margin-top: 0px;
 .book-grid {
     display: flex;
     gap: 5px;
-    justify-content: center;
-    padding: 20px;
+    padding-left: 50px;
+    width: 80%;
 }
+
 /*Liens*/
 a {
     font-size: 14px;
@@ -118,13 +123,47 @@ a:hover {
     text-decoration: none;
 }
 
+/*lien ancrés*/
+.categories {
+    text-align: center;
+}
+
+.categories a {
+    font-size: 16px;
+}
+
+/*extraits choisis*/
+.container h3
+{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.container p
+{
+    font-size: 14px;
+    text-align: left;
+}
+
+.quote-box {
+        background-color: #ededed;
+        border: 1px dashed #aa3322;
+        padding: 10px;
+        font-style: italic;
+        display: flex;
+        width: 450px;
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
 /*Pied de page*/
 .footer {
     font-size: 14px;
     background: #cccccc;
     color: #721717;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,5 +175,3 @@ a:hover {
     font-style: italic;
     font-weight: bold; 
 }
-
-/* à voir, lien ancrés et la suite*/
